@@ -27,7 +27,7 @@
                 </div>
                 <div class="form-group">
                     <label for="autor">Autor:</label>
-                    <select name="autor" class="form-select>
+                    <select name="autor" class="form-select">
                         <c:forEach var="a" items="${autores}">
                             <option value="${a.id}">${a.nome}</option>
                         </c:forEach>
