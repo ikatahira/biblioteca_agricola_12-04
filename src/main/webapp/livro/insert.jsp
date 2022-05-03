@@ -19,7 +19,7 @@
                 </div>
                 <div class="form-group">
                     <label for="genero">Gênero:</label>
-                    <select name="genero" class="form-control">
+                    <select name="genero" class="form-select">
                         <c:forEach var="g" items="${generos}">
                             <option value="${g.id}">${g.nome}</option>
                         </c:forEach>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="form-group">
                     <label for="autor">Autor:</label>
-                    <select name="autor" class="form-control">
+                    <select name="autor" class="form-select>
                         <c:forEach var="a" items="${autores}">
                             <option value="${a.id}">${a.nome}</option>
                         </c:forEach>
